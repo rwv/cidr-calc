@@ -1,5 +1,9 @@
 import { ByteArrayUtils } from './byte-array-utils';
-import { IPV4_BYTE_COUNT, IPV6_BYTE_COUNT, IPV6_PART_COUNT } from './index';
+
+export const IPV4_PART_COUNT = 4;
+export const IPV4_BYTE_COUNT = 4;
+export const IPV6_PART_COUNT = 8;
+export const IPV6_BYTE_COUNT = 16;
 
 export class IpNotationUtils {
 
